@@ -37,7 +37,7 @@ section{
 .derecha
 {
    width: 28%;
-   background-color: rgba(11, 9, 31, 0.6);
+   background-color: rgba(11, 9, 31, 0.8);
    border-radius: 45px;
    margin: 0 25px 0 auto;
    
@@ -68,12 +68,14 @@ section{
 }
 #btn-copy{
    margin-left: 30%;
-    margin-top: 95%;
+    margin-top: 98%;
     padding: 24px;
+    color: white;
    text-align: center;
+   
     width: 40%;
-    height: 4%;
-    background-color: rgb(14, 184, 210);    
+    height: 15px;
+    background-color: rgb(50, 68, 200);    
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -84,7 +86,7 @@ section{
      
 }
 #btn-copy:hover{
-    background-color: rgb(180, 24, 24);
+    background-color: rgb(7, 81, 184);
     
     scale: 1.1;
 }
@@ -126,7 +128,7 @@ section{
 .btn-encriptar, .btn-desencriptar{
     width: 30%;
     height: 40px;
-    background: rgb(2, 23, 181);
+    background: rgb(50, 68, 200);
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
